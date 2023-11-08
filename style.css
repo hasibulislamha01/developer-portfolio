@@ -1,0 +1,43 @@
+body{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    .orange-color{
+        color: orangered;
+    }
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    padding-top: 10%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.mail{
+    text-decoration: none;
+    color: orangered;
+    
+
+}
