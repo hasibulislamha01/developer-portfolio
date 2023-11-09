@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    padding-right: 15px;
 }
 .half-width{
     width: 50%;
@@ -38,6 +39,10 @@ img{
 .mail{
     text-decoration: none;
     color: orangered;
-    
-
+}
+.Dream-big{
+    padding-top: 100px;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
