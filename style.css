@@ -4,10 +4,14 @@ body{
 }
 h1{
     font-size: 50px;
-    .orange-color{
+}
+h2{
+    font-size: 35px;
+}
+.orange-color{
         color: orangered;
     }
-}
+
 .flexible-container{
     display: flex;
     padding-right: 15px;
@@ -28,8 +32,8 @@ img{
     font-weight: 700;
     background-color: orange;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 30px;
+    border-radius: 7px;
 
 }
 .top-banner{
@@ -45,4 +49,12 @@ img{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2.5%;
+    
+    box-shadow: 15px 15px 5px gray; 
 }
